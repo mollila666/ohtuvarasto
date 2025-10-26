@@ -13,9 +13,6 @@ class TestVarasto(unittest.TestCase):
     def test_uudella_varastolla_oikea_tilavuus(self):
         self.assertAlmostEqual(self.varasto.tilavuus, 10)
 
-    def test_uudella_varastolla_oikea_tilavuuss(self):
-        self.assertAlmostEqual(self.varasto.tilavuus, 0)
-
     def test_lisays_lisaa_saldoa(self):
         self.varasto.lisaa_varastoon(8)
 
